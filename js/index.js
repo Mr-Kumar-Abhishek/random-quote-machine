@@ -1,4 +1,4 @@
- $(document).ready(function() {
+ $(function() {
 	get_quote();
 	$('#get_quote').click(get_quote);
  });

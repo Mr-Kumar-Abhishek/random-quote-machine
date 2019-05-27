@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Mr-Kumar-Abhishek/random-quote-machine/issues"
   },
-  "homepage": "https://github.com/Mr-Kumar-Abhishek/random-quote-machine#readme"
+  "homepage": "https://github.com/Mr-Kumar-Abhishek/random-quote-machine#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

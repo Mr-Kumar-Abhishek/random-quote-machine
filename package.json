@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/Mr-Kumar-Abhishek/random-quote-machine#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }

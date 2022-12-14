@@ -4,9 +4,9 @@
  });
 
 function get_quote(){
-    $.getJSON("https://programming-quotes-api.herokuapp.com/Quotes/random",function(data) {
-      $("#text").text(data.en);
+    $.getJSON("https://api.themotivate365.com/stoic-quote",function(data) {
+      $("#text").text(data.quote);
       $("#author").html(data.author);
-      $("#tweet-quote").attr('href', 'http://www.twitter.com/intent/tweet?text=' + data.en + ' -- ' + data.author); 
+      $("#tweet-quote").attr('href', 'http://www.twitter.com/intent/tweet?text=' + data.quote + ' -- ' + data.author); 
      });
 }
